@@ -26,7 +26,7 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 60,
+		WaitTime = 12,
 		X = GetEntityX(),
 		Y = GetEntityY(),
 		Conditions =
