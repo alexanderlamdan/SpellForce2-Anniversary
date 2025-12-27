@@ -1,0 +1,1 @@
+dofile(GetScriptPath().."Defenders2.lua")

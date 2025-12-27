@@ -23,7 +23,7 @@ State
 		{
 		},
 	},
-}'
+}
 '@
   
   New-Item -Path . -Name "$spawn_script" -ItemType "file" -Value "$state_npc_template"

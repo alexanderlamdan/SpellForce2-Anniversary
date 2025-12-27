@@ -28,13 +28,11 @@ State
 	},
 	OnFigureRespawnEvent
 	{
-		WaitTime = myWait,
+		WaitTime = 12,
 		X = myHomeX,
 		Y = myHomeY,
 		Conditions =
 		{
-			MapFlagIsFalse {Name = "mf_P401_StartEndCS"},
-			MapFlagIsFalse {Name = "mf_P401_EndEndCS"},
 		},
 		Actions =
 		{
