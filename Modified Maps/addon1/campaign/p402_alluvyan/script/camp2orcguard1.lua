@@ -12,7 +12,7 @@ State
 	StateName = "INIT",
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 11,
+		WaitTime = 13,
 		X = 399,
 		Y = 393,
 		Conditions =

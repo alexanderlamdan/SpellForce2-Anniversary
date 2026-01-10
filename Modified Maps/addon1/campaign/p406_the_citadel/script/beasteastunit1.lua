@@ -5,12 +5,12 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 30,
+		WaitTime = 10,
 		X = 471,
 		Y = 352,
 		Conditions =
 		{
-			BuildingIsAlive	{Tag = "BeastSpawnCamp"},
+-- 			BuildingIsAlive	{Tag = "BeastSpawnCamp"},
 		},
 		Actions = 
 		{

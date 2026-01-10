@@ -7,7 +7,7 @@ State
 		Y = 58,
 		Conditions =
 		{
-			MapFlagIsTrue {Name = "mf_P401_EndIntroCS"}
+-- 			MapFlagIsTrue {Name = "mf_P401_EndIntroCS"}
 		},
 		Actions =
 		{
@@ -20,7 +20,7 @@ State
 		Y = 58,
 		Conditions =
 		{
-			QuestIsNotSolved {Quest = "WinterlightPeak_CloseIt"}
+-- 			QuestIsNotSolved {Quest = "WinterlightPeak_CloseIt"}
 		},
 		Actions =
 		{
@@ -62,17 +62,17 @@ State
 		},
 	},
 	-- Wenn die Tore zu sind bleiben die Einheiten wo sie sind
-	OnOneTimeEvent
-	{
-		GotoState = "GatesClosed",
-		Conditions =
-		{
-			MapFlagIsTrue {Name = "mf_P401_EndGateCS"},
-		},
-		Actions =
-		{
-		},
-	}
+-- 	OnOneTimeEvent
+-- 	{
+-- 		GotoState = "GatesClosed",
+-- 		Conditions =
+-- 		{
+-- 			MapFlagIsTrue {Name = "mf_P401_EndGateCS"},
+-- 		},
+-- 		Actions =
+-- 		{
+-- 		},
+-- 	}
 }
 
 State

@@ -159,11 +159,11 @@ State
 		Y = GetEntityY(),
 		Conditions =
 		{
-			FigureIsNotInRangeToEntity	{Tag = "pl_HumanAvatar", TargetTag = "TeleportEndMarkerCitadel", Range = 2},
+-- 			FigureIsNotInRangeToEntity	{Tag = "pl_HumanAvatar", TargetTag = "TeleportEndMarkerCitadel", Range = 2},
 		},
 		Actions = 
 		{
-			EntityFlagSetFalse	{Name = "ef_OneTimeAttack"},
+-- 			EntityFlagSetFalse	{Name = "ef_OneTimeAttack"},
 		},
 		DeathActions = 
 		{

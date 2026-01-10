@@ -1,1 +1,1 @@
---dofile(GetScriptPath() .. "Camp2OrcGuard1.lua")
+dofile(GetScriptPath().."Camp2OrcGuard1.lua")

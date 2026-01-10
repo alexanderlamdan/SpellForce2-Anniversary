@@ -5,12 +5,12 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 30,
+		WaitTime = 15,
 		X = 473,
 		Y = 254,
 		Conditions =
 		{
-			BuildingIsAlive	{Tag = "Opponent4Base2"},
+-- 			BuildingIsAlive	{Tag = "Opponent4Base2"},
 		},
 		Actions = 
 		{

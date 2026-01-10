@@ -116,12 +116,12 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 10,
+		WaitTime = 9,
 		X = GetEntityX(),
 		Y = GetEntityY(),
 		Conditions =
 		{
-			FigureIsNotInRangeToEntity	{Tag = "pl_HumanAvatar", TargetTag = "TeleportEndMarkerCitadel", Range = 2},
+-- 			FigureIsNotInRangeToEntity	{Tag = "pl_HumanAvatar", TargetTag = "TeleportEndMarkerCitadel", Range = 2},
 		},
 		Actions = 
 		{

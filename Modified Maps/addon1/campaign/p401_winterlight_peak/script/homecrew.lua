@@ -8,7 +8,7 @@ State
 		Y = 103,
 		Conditions =
 		{
-			QuestIsNotSolved {Quest = "WinterlightPeak_LastStand"},
+-- 			QuestIsNotSolved {Quest = "WinterlightPeak_LastStand"},
 		},
 		Actions =
 		{
@@ -34,11 +34,11 @@ State
 	{
 		Conditions =
 		{
-			QuestIsSolved {Quest = "WinterlightPeak_LastStand"},
+-- 			QuestIsSolved {Quest = "WinterlightPeak_LastStand"},
 		},
 		Actions =
 		{
-			FigureVanish {},
+-- 			FigureVanish {},
 		},
 	},
 }
