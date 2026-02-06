@@ -10,7 +10,7 @@ State
 		Y = 352,
 		Conditions =
 		{
--- 			BuildingIsAlive	{Tag = "BeastSpawnCamp"},
+			BuildingIsAlive	{Tag = "BeastSpawnCamp"},
 		},
 		Actions = 
 		{

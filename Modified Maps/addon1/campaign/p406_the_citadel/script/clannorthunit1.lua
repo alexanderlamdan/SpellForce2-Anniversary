@@ -10,7 +10,7 @@ State
 		Y = 432,
 		Conditions =
 		{
--- 			BuildingIsAlive	{Tag = "Opponent2Base2"},
+			BuildingIsAlive	{Tag = "Opponent2Base2"},
 		},
 		Actions = 
 		{
