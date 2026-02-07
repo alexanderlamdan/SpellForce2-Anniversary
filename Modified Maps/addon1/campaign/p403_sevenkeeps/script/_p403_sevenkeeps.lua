@@ -103,30 +103,7 @@ State
 				PortalDisable	{Tag = "GoldenFields_Westguard"},
 				PlayerTravelDisable	{},
 				
-				FigureVanish	{Tag = "HeroWind"},
-
-				FigureWalk{Tag="NorthClan1", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan2", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan3", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan4", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan5", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan6", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan7", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan8", X = 123, Y = 667},
-				FigureWalk{Tag="NorthClan9", X = 123, Y = 667},
-
-				FigureWalk{Tag="SouthClan1", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan2", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan3", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan4", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan5", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan6", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan7", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan8", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan9", X = 635, Y = 102},
-				FigureWalk{Tag="SouthClan10", X = 635, Y = 102},
-
-				-- die ist nur zur Dialoginitialisierung da...
+				FigureVanish	{Tag = "HeroWind"},		-- die ist nur zur Dialoginitialisierung da...
 		},
 		GotoState = "DwarfSecurity",
 	},

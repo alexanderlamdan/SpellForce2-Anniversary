@@ -15,7 +15,7 @@ State
 	},
 	OnFigureRespawnEvent
 	{
-		WaitTime = 13,
+		WaitTime = 10,
 		X = 187,
 		Y = 58,
 		Conditions =
@@ -24,8 +24,8 @@ State
 		},
 		Actions =
 		{
-			EntityFlagSetTrue {Name = "ef_P407_Respawn"},
-			EntityFlagSetFalse {Name = "ef_P401_There"}
+-- 			EntityFlagSetTrue {Name = "ef_P407_Respawn"},
+-- 			EntityFlagSetFalse {Name = "ef_P401_There"}
 		},
 		
 	},
@@ -62,17 +62,17 @@ State
 		},
 	},
 	-- Wenn die Tore zu sind bleiben die Einheiten wo sie sind
--- 	OnOneTimeEvent
--- 	{
--- 		GotoState = "GatesClosed",
--- 		Conditions =
--- 		{
--- 			MapFlagIsTrue {Name = "mf_P401_EndGateCS"},
--- 		},
--- 		Actions =
--- 		{
--- 		},
--- 	}
+	OnOneTimeEvent
+	{
+		GotoState = "GatesClosed",
+		Conditions =
+		{
+			MapFlagIsTrue {Name = "mf_P401_EndGateCS"},
+		},
+		Actions =
+		{
+		},
+	}
 }
 
 State

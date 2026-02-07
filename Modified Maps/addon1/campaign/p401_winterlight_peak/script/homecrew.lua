@@ -3,9 +3,9 @@ State
 	StateName = "INIT",
 	OnFigureRespawnEvent
 	{
-		WaitTime = 12,
-		X = 126,
-		Y = 103,
+		WaitTime = 11,
+		X = 124,
+		Y = 102,
 		Conditions =
 		{
 -- 			QuestIsNotSolved {Quest = "WinterlightPeak_LastStand"},

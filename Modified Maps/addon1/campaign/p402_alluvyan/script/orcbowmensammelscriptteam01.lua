@@ -12,11 +12,12 @@ State
 	StateName = "INIT",
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 13,
+		WaitTime = 60,
 		X = 319,
 		Y = 406,
 		Conditions =
 		{
+			BuildingIsAlive	{Tag = "HaupthausOrc1_1"},
 		},
 		Actions = 
 		{

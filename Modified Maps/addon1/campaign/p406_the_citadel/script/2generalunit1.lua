@@ -163,7 +163,7 @@ State
 		},
 		Actions = 
 		{
--- 			EntityFlagSetFalse	{Name = "ef_OneTimeAttack"},
+			EntityFlagSetFalse	{Name = "ef_OneTimeAttack"},
 		},
 		DeathActions = 
 		{

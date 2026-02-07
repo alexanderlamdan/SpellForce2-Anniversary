@@ -1,1 +1,0 @@
-dofile(GetScriptPath().."Defenders3.lua")

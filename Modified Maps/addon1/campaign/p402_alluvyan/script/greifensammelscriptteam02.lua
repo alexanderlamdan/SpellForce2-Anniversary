@@ -25,12 +25,13 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 13,
+		WaitTime = 60,
 		X = GetEntityX(),
 		Y = GetEntityY(),
 		Conditions =
 		{
-
+			BuildingIsAlive	{Tag = "HaupthausOrc2"},
+			BuildingIsAlive	{Tag = "HaupthausOrc2_1"},
 		},
 		Actions = 
 		{
@@ -52,7 +53,8 @@ State
     	
 		Conditions =
 		{
-
+			BuildingIsDead	{Tag = "HaupthausOrc2"},
+			BuildingIsDead	{Tag = "HaupthausOrc2_1"},
 		},
 		Actions =
 		{

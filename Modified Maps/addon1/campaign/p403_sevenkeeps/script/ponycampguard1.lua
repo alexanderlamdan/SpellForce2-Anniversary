@@ -5,12 +5,13 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 6,
+		WaitTime = 1,
 		X = 126,
 		Y = 673,
 		Conditions =
 		{
 			MapFlagIsFalse {Name = "mf_Track01Vanish"},
+			PlayerFigureIsNotInRange	{Player = "pl_Human", Range = 31, X = 126, Y = 666},
 		},
 		Actions = 
 		{

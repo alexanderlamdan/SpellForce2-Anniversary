@@ -5,7 +5,7 @@ State
 	
 	OnFigureRespawnEvent	
 	{
-		WaitTime = 10,
+		WaitTime = 30,
 		X = 471,
 		Y = 352,
 		Conditions =

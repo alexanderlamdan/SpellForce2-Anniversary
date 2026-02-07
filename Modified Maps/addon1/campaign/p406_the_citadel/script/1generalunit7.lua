@@ -1,1 +1,1 @@
-dofile(GetScriptPath().."1GeneralUnit1.lua")
+dofile(GetScriptPath() .. "1GeneralUnit1.lua")

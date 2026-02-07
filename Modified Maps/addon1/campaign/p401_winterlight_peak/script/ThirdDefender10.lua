@@ -1,0 +1,1 @@
+dofile(GetScriptPath().."thirddefenders.lua")
