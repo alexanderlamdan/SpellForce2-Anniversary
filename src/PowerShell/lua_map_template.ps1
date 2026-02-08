@@ -4,12 +4,12 @@ function Generate-MapScript {
   $script_folder = "script/"
   $p = 'p'
   $map_folder_name = "$p$map_name"
-  $main_map_script = "_$p$map_name.lua"
+  $main_map_script = "_$p_$map_name.lua"
   
   $state_map_template = @'
 State
 {
-	StateName = INIT,
+	StateName = "INIT",
 
 	OnOneTimeEvent
 	{
@@ -27,7 +27,7 @@ State
 
 State
 {
-	StateName = MAIN,
+	StateName = "MAIN",
 
 	OnOneTimeEvent
 	{
