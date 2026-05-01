@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "CS_A_08_DarkelvesGroup.lua")

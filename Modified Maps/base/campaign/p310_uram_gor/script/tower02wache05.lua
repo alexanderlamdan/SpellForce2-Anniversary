@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "DemonTowerWacheSammelScript02.lua")

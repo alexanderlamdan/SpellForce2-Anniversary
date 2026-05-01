@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "WacheSiebenburg61.lua")

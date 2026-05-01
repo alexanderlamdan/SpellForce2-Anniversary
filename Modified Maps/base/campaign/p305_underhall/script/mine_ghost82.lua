@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "Mine_Ghost09Sammelscript.lua")

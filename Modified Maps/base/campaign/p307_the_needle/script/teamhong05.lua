@@ -1,2 +1,0 @@
-
-dofile(GetScriptPath() .. "TeamHongShared.lua")

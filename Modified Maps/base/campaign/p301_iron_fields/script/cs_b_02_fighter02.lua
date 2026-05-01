@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "CS_B_02_FighterGroup.lua")

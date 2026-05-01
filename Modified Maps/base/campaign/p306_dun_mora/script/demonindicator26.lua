@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "Indicationplant_Shared01.lua")

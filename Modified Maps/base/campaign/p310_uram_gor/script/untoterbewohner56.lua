@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "UntoterBewohnerSquadSammelscript04.lua")

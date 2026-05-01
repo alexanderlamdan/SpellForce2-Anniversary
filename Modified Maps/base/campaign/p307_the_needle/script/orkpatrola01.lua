@@ -1,3 +1,0 @@
-
-
-dofile(GetScriptPath() .. "OrcPatrolAAAShared.lua")

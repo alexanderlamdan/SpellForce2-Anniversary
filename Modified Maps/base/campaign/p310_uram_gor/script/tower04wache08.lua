@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "DemonTowerAngreiferSammellScript04.lua")

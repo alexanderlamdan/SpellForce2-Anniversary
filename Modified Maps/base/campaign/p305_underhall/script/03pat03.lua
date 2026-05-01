@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "03Pat_Sammelscript.lua")

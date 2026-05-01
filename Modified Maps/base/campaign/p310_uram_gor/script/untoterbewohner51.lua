@@ -1,1 +1,0 @@
-dofile(GetScriptPath() .. "UntotePatrouilleSammelscript07.lua")
