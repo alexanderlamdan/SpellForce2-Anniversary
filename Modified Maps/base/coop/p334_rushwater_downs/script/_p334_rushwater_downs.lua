@@ -1,3 +1,4 @@
+dofile(GetScriptPath() .. "NorthGate.lua")
 State
 {
 	StateName = "MAIN",

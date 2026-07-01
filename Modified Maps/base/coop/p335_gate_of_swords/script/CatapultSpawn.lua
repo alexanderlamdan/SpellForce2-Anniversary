@@ -1,6 +1,6 @@
 State
 {
-	StateName = "INIT",
+	StateName = "CATAPULT_SPAWN",
 	OnFigureRespawnEvent
 	{
 		WaitTime = 16,
