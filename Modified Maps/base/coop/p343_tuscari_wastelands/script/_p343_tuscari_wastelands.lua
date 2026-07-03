@@ -1,6 +1,7 @@
+dofile(GetScriptPath() .. "Defenders.lua")
 State
 {
-	StateName = "INIT",
+	StateName = "MAIN",
 
 	OnOneTimeEvent
 	{
@@ -12,6 +13,5 @@ State
 		{
 
 		},
-		GotoState = MAIN,
 	},
 };

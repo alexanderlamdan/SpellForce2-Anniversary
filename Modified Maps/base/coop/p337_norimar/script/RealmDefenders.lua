@@ -368,7 +368,7 @@
 --
 -- 	end
 -- end
-
+-- West Gates
 do
 	--------------------------------------------------
 	-- CONFIG
@@ -378,8 +378,8 @@ do
 	local minDistance = 2
 	local maxAttempts = 300
 
-	local team = "tm_Human"
-	local prefix = "PactDefender1_"
+	local team = "tm_HumanTeam"
+	local prefix = "WestGateDefender"
 
 	--------------------------------------------------
 	-- ALLOWED HOME AREAS
@@ -390,10 +390,10 @@ do
 	{
 		-- Ворота у воды
 		{
-			MinX = 250,
-			MaxX = 303,
-			MinY = 637,
-			MaxY = 646,
+			MinX = 445,
+			MaxX = 470,
+			MinY = 569,
+			MaxY = 576,
 		},
 
 		-- Подъём / проход вверх
@@ -414,12 +414,12 @@ do
 	local blockedHomeAreas =
 	{
 		-- пример: опасная зона возле воды/забора
-		{
-			MinX = 260,
-			MaxX = 301,
-			MinY = 627,
-			MaxY = 636,
-		},
+-- 		{
+-- 			MinX = 260,
+-- 			MaxX = 301,
+-- 			MinY = 627,
+-- 			MaxY = 636,
+-- 		},
 
 		-- сюда добавляешь новые пятна:
 		-- {
@@ -436,12 +436,12 @@ do
 
 	local unitGroups =
 	{
-		{ UnitId = 172, Level = 4, Count = 5 },
-		{ UnitId = 72,  Level = 4, Count = 12 },
-		{ UnitId = 166, Level = 4, Count = 7 },
-		{ UnitId = 88,  Level = 4, Count = 4 },
-		{ UnitId = 74,  Level = 4, Count = 3 },
-		{ UnitId = 890, Level = 4, Count = 4 },
+		{ UnitId = 312, Level = 3, Count = 12 },
+		{ UnitId = 311,  Level = 3, Count = 18 },
+		{ UnitId = 309, Level = 3, Count = 10 },
+		{ UnitId = 304,  Level = 3, Count = 6 },
+		{ UnitId = 307,  Level = 3, Count = 4 },
+--[[		{ UnitId = 890, Level = 4, Count = 4 },
 		{ UnitId = 338, Level = 4, Count = 12 },
 		{ UnitId = 336, Level = 4, Count = 7 },
 		{ UnitId = 337, Level = 4, Count = 10 },
@@ -449,7 +449,7 @@ do
 		{ UnitId = 910, Level = 4, Count = 5 },
 		{ UnitId = 911, Level = 4, Count = 8 },
 		{ UnitId = 80,  Level = 4, Count = 5 },
-		{ UnitId = 79,  Level = 4, Count = 16 },
+		{ UnitId = 79,  Level = 4, Count = 16 }]]
 	}
 
 	--------------------------------------------------
@@ -587,8 +587,8 @@ do
 
 				homePositions[i] =
 				{
-					X = 250,
-					Y = 637,
+					X = 449,
+					Y = 572,
 				}
 
 			end
@@ -683,19 +683,19 @@ do
 	end
 end
 
--- PACT DEFENDERS 2
+-- EAST GATES
 
 do
 	--------------------------------------------------
 	-- CONFIG
 	--------------------------------------------------
 
-	local respawnTime = 7
+	local respawnTime = 4
 	local minDistance = 2
 	local maxAttempts = 300
 
-	local team = "tm_Human"
-	local prefix = "PactDefender2_"
+	local team = "tm_HumanTeam"
+	local prefix = "EastGateDefender"
 
 	--------------------------------------------------
 	-- ALLOWED HOME AREAS
@@ -714,10 +714,10 @@ do
 
 		-- Подъём / проход вверх
 		{
-			MinX = 252,
-			MaxX = 260,
-			MinY = 574,
-			MaxY = 634,
+			MinX = 366,
+			MaxX = 386,
+			MinY = 578,
+			MaxY = 583,
 		},
 	}
 
@@ -730,20 +730,20 @@ do
 	local blockedHomeAreas =
 	{
 		-- пример: опасная зона возле воды/забора
-		{
-			MinX = 260,
-			MaxX = 301,
-			MinY = 627,
-			MaxY = 636,
-		},
-
--- 		сюда добавляешь новые пятна:
-		{
-			MinX = 242,
-			MaxX = 256,
-			MinY = 590,
-			MaxY = 652,
-		},
+-- 		{
+-- 			MinX = 260,
+-- 			MaxX = 301,
+-- 			MinY = 627,
+-- 			MaxY = 636,
+-- 		},
+--
+-- -- 		сюда добавляешь новые пятна:
+-- 		{
+-- 			MinX = 242,
+-- 			MaxX = 256,
+-- 			MinY = 590,
+-- 			MaxY = 652,
+-- 		},
 	}
 
 	--------------------------------------------------
@@ -752,20 +752,13 @@ do
 
 	local unitGroups =
 	{
-		{ UnitId = 172, Level = 4, Count = 5 },
-		{ UnitId = 72,  Level = 4, Count = 12 },
-		{ UnitId = 166, Level = 4, Count = 7 },
-		{ UnitId = 88,  Level = 4, Count = 4 },
-		{ UnitId = 74,  Level = 4, Count = 3 },
-		{ UnitId = 890, Level = 4, Count = 4 },
-		{ UnitId = 338, Level = 4, Count = 12 },
-		{ UnitId = 336, Level = 4, Count = 7 },
-		{ UnitId = 337, Level = 4, Count = 10 },
-		{ UnitId = 901, Level = 4, Count = 4 },
-		{ UnitId = 910, Level = 4, Count = 5 },
-		{ UnitId = 911, Level = 4, Count = 8 },
-		{ UnitId = 80,  Level = 4, Count = 8 },
-		{ UnitId = 79,  Level = 4, Count = 16 },
+		{ UnitId = 312, Level = 3, Count = 12 },
+		{ UnitId = 311,  Level = 3, Count = 18 },
+		{ UnitId = 309, Level = 3, Count = 10 },
+		{ UnitId = 304,  Level = 3, Count = 6 },
+		{ UnitId = 307,  Level = 3, Count = 4 },
+		{ UnitId = 305,  Level = 3, Count = 3 },
+		{ UnitId = 306,  Level = 3, Count = 5 },
 	}
 
 	--------------------------------------------------
@@ -1034,6 +1027,6 @@ State
 -- 			Range = 90,
 -- 			Height = 10,
 -- 		},
-	},
+	}
 }
 }

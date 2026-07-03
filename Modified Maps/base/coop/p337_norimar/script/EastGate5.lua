@@ -1,1 +1,0 @@
-dofile(GetScriptPath().."EastGuards.lua")

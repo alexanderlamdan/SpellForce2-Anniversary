@@ -1,16 +1,17 @@
+dofile(GetScriptPath() .. "RealmDefenders.lua")
 State
 {
-	StateName = "INIT",
+	StateName = "MAIN",
 
 	OnOneTimeEvent
 	{
 		Conditions =
 		{
+	    	-- fill_me
 		},
 		Actions =
 		{
 
 		},
-		GotoState = MAIN,
 	},
 };
