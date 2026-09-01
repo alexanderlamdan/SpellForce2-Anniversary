@@ -7,7 +7,7 @@ TargetWind = 5
 TargetWisper = 6
 
 myDivide = math.random(1,10)
-mySpawnTime = math.floor((myWait/myDivide))
+-- mySpawnTime = math.floor((40/myDivide))
 
 State
 {
@@ -28,7 +28,7 @@ State
 	},
 	OnFigureRespawnEvent
 	{
-		WaitTime = 10,
+		WaitTime = 12,
 		X = GetEntityX(),
 		Y = GetEntityY(),
 		Conditions =
@@ -113,8 +113,8 @@ State
 	},
 	OnIdleRunHomeFake
 	{
-		X = GetEntityX(),
-		Y = GetEntityY(),
+		X = myCrossoverX,
+		Y = myCrossoverY,
 		Conditions =
 		{
 			EntityValueIsEqual {Name = "ev_P401_WhereToGo", Value = TargetAvatar},
@@ -131,8 +131,8 @@ State
 	},
 	OnIdleRunHomeFake
 	{
-		X = GetEntityX(),
-		Y = GetEntityY(),
+		X = myCrossoverX,
+		Y = myCrossoverY,
 		Conditions =
 		{
 			EntityValueIsEqual {Name = "ev_P401_WhereToGo", Value = TargetWind},
@@ -149,8 +149,8 @@ State
 	},
 	OnIdleRunHomeFake
 	{
-		X = GetEntityX(),
-		Y = GetEntityY(),
+		X = myCrossoverX,
+		Y = myCrossoverY,
 		Conditions =
 		{
 			EntityValueIsEqual {Name = "ev_P401_WhereToGo", Value = TargetWisper},

@@ -15,7 +15,7 @@ State
 	},
 	OnFigureRespawnEvent
 	{
-		WaitTime = 15,
+		WaitTime = 17,
 		X = 187,
 		Y = 58,
 		Conditions =
@@ -27,7 +27,7 @@ State
 -- 			EntityFlagSetTrue {Name = "ef_P407_Respawn"},
 -- 			EntityFlagSetFalse {Name = "ef_P401_There"}
 		},
-		
+
 	},
 	OnIdleRunHomeFake
 	{

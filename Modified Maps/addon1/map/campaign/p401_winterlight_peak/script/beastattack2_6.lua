@@ -1,5 +1,1 @@
-myWait = 27
-myX = 123
-myY = 102
-
-dofile(GetScriptPath().."BeastAttack2.lua")
+dofile(GetScriptPath().."beastattack2.lua")
