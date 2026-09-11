@@ -11,7 +11,7 @@ do
 	-- CONFIG
 	--------------------------------------------------
 
-	local respawnTime = 7
+	local respawnTime = 5
 	local minDistance = 1
 	local maxAttempts = 300
 	local level = 11
@@ -263,7 +263,7 @@ do
 	-- CONFIG
 	--------------------------------------------------
 
-	local respawnTime = 8
+	local respawnTime = 6
 	local minDistance = 0
 	local maxAttempts = 300
 	local level = 11
@@ -518,7 +518,7 @@ do
 	-- CONFIG
 	--------------------------------------------------
 
-	local respawnTime = 8
+	local respawnTime = 7
 	local minDistance = 1
 	local maxAttempts = 300
 	local level = 11
@@ -770,7 +770,7 @@ do
 	-- CONFIG
 	--------------------------------------------------
 
-	local respawnTime = 8
+	local respawnTime = 9
 	local minDistance = 2
 	local maxAttempts = 300
 	local level = 11
